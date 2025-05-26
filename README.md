@@ -1,4 +1,7 @@
-### study-of-basic-gates
+# study-of-basic-gates
+## Name: DEVESH SHARMA S
+## Register no: 212222110008
+## Date:
 
 **AIM:** 
 
@@ -66,14 +69,35 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+~~~
+module EX(a, b, c1, c2, c3, c4, c5, c6, c7);
+  input a, b;
+  output c1, c2, c3, c4, c5, c6, c7;
+
+  assign c1 = ~a;
+  assign c2 = a & b;
+  assign c3 = a | b;
+  assign c4 = ~(a & b);
+  assign c5 = ~(a | b);
+  assign c6 = a ^ b;
+  assign c7 = ~(a ^ b);
+endmodule
+~~~
+### Developed by: DEVESH SHARMA S
+### RegisterNumber: 212222110008
  
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
+![image](https://github.com/user-attachments/assets/df212f92-a594-4b1b-8701-5d8b455b3cb5)
 
 **RTL**
+![image](https://github.com/user-attachments/assets/52c6d074-15bd-4aaf-8ddf-1343e940c3bb)
+
+**OUTPUT**
+![image](https://github.com/user-attachments/assets/98cfd617-816f-4867-91ee-7b345c2045c5)
+
 
 **Result:**
+the truth table of logic gates in Quartus II using Verilog programming is verified
 
 
