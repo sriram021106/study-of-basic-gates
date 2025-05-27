@@ -1,4 +1,7 @@
-### study-of-basic-gates
+[# study-of-basic-gates
+## Name: SRIRAM.V
+## Register no: 212224050047
+## Date:
 
 **AIM:** 
 
@@ -65,35 +68,37 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
-```
- Developed by: SRIRAM V 
- RegisterNumber: 21224050047 
- ```
-```
 
-```
-**PROGRAM**
-![Screenshot 2025-03-19 084214](https://github.com/user-attachments/assets/b0d9159b-8b45-4332-83da-577e372b1ae4)
+~~~
+module EX(a, b, c1, c2, c3, c4, c5, c6, c7);
+  input a, b;
+  output c1, c2, c3, c4, c5, c6, c7;
 
-
+  assign c1 = ~a;
+  assign c2 = a & b;
+  assign c3 = a | b;
+  assign c4 = ~(a & b);
+  assign c5 = ~(a | b);
+  assign c6 = a ^ b;
+  assign c7 = ~(a ^ b);
+endmodule
+~~~
+### Developed by: DEVESH SHARMA S
+### RegisterNumber: 212222110008
+ 
 **Logic symbol & Truthtable**
-![Screenshot 2025-03-19 084246](https://github.com/user-attachments/assets/1fee54e9-49ed-479e-ab92-774606634818)
 
-
-
-**RTL realization Output:** 
-![Screenshot 2025-03-19 084303](https://github.com/user-attachments/assets/ed0307a0-bb92-4787-81df-17723298e9dd)
+![image](https://github.com/user-attachments/assets/df212f92-a594-4b1b-8701-5d8b455b3cb5)
 
 **RTL**
+![image](https://github.com/user-attachments/assets/52c6d074-15bd-4aaf-8ddf-1343e940c3bb)
 
-![Screenshot 2025-03-19 084324](https://github.com/user-attachments/assets/db18f7c3-fd66-44de-ad7a-7a564a71d85f)
+**OUTPUT**
+![image](https://github.com/user-attachments/assets/98cfd617-816f-4867-91ee-7b345c2045c5)
 
 
 **Result:**
-Studied and verified with truth table of logic gates in Quartus 2 using Verilog programming successfully.
+the truth table of logic gates in Quartus II using Verilog programming is verified
 
 
-
-
-
-
+](https://github.com/devesh-s1/study-of-basic-gates/edit/main/README.md)
