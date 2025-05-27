@@ -1,6 +1,6 @@
 # study-of-basic-gates
-## Name: DEVESH SHARMA S
-## Register no: 212222110008
+## Name: SRIRAM.V
+## Register no: 212224050047
 ## Date:
 
 **AIM:** 
