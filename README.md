@@ -1,7 +1,7 @@
 [# study-of-basic-gates
 ## Name: SRIRAM.V
 ## Register no: 212224050047
-## Date:
+## Date: 18/06/2025
 
 **AIM:** 
 
