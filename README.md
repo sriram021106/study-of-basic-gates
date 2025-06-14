@@ -1,8 +1,7 @@
-[# study-of-basic-gates
 ## Name: SRIRAM.V
 ## Register no: 212224050047
 ## Date: 18/03/2025
-
+## Experiment no.1: study-of-basic-gates
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
